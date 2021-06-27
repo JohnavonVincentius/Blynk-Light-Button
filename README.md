@@ -1,8 +1,10 @@
 # Blynk-Light-Button
 Controls a output(Relay Module) With The Blynk App And An External Button With A Latch Function
 
-Controls a relay module for an ESP8266 like this one : 
-![image](https://user-images.githubusercontent.com/81090239/123534986-306e8300-d74b-11eb-9811-d2525b3959d3.png)
+Controls a relay for an ESP8266 like this circuit : 
+
+![sch](https://user-images.githubusercontent.com/81090239/123535846-e25c7e00-d750-11eb-85c8-03eb0c2be18e.png)
+
 
 The relay output is in ESP8266 pin 3
 the button input is connected to pin 2 and ground,the button acts like a latch switch that could control the relay and update the blynk app.
